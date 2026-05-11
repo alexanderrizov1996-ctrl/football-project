@@ -1,0 +1,6 @@
+4. Data Preprocessing
+We select relevant columns and clean the dataset.
+
+data = data[['FTHG', 'FTAG', 'FTR']].dropna()
+
+data.head()
