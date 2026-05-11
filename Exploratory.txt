@@ -1,0 +1,13 @@
+plt.figure()
+data['FTR'].value_counts().plot(kind='bar')
+plt.title("Match Outcomes Distribution")
+plt.show()
+
+Home wins occur more frequently, indicating class imbalance.
+
+plt.figure()
+data[['FTHG', 'FTAG']].hist()
+plt.suptitle("Goals Distribution")
+plt.show()
+
+Most matches have a low number of goals.
